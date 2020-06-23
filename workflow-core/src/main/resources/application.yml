@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: root
+    password: 1qaz@WSX
+    url: jdbc:mysql://127.0.0.1:3306/workflow?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8&nullCatalogMeansCurrent=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  activiti:
+    check-process-definitions: false
